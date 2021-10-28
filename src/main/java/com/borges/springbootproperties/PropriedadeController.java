@@ -10,14 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class PropriedadeControler {
-	
+public class PropriedadeController {
+
 	@Autowired
-	private PropriedadeReposytory repository;
-	
+	private PropriedadeRepository repository;
+
 	@GetMapping("/find")
-	List<Propriedade> findByFiltro(@RequestParam("filtro")String filtro){
-		return repository.findbyFiltro(filtro);
+	List<Propriedade> findByFiltro(@RequestParam("filtro") String filtro) {
+		return repository.findByFiltro(filtro);
 	}
 
 }
+
