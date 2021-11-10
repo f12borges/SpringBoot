@@ -19,7 +19,7 @@ Tecnologias usadas:
 cd "diretorio de sua preferencia"
 
 # Clone este repositório
-git clone https://github.com/f12borges/spring-boot-propriedades.git
+git clone https://github.com/f12borges/spring-boot-properties.git
 ```
 #### ⏭ Executando o projeto
 
