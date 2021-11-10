@@ -1,4 +1,4 @@
-# spring-boot-propriedades
+# spring-boot-properties
 
 Aplicação web que lista as propriedades do Spring Boot
 
@@ -25,10 +25,5 @@ git clone https://github.com/f12borges/spring-boot-propriedades.git
 
 Passos:
 1. Para executar o projeto, é necessário importa-lo utilizando o sts-4.
-2. Execute o comando abaixo:
-
-  ```
-    mvn spring-boot:run
-  ```
-
+2. Execute o projeto manualmente no sts-4.
 3. Acesse em http://localhost:8080
